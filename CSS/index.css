@@ -120,6 +120,14 @@ height: 37.5vw;
     color: white;
   }
 
+ .dd{ 
+  display: flex;
+  justify-content: center;
+
+  a:hover{ h4{
+    color: red;
+  }}
+  
   h4 {
     font-family: "Roboto", serif;
     font-weight: 700;
@@ -129,7 +137,7 @@ height: 37.5vw;
     padding-top: 2vw;
     color: white;
     text-decoration: underline;
-  }
+  }}
 }
 
 .mt {
@@ -404,7 +412,7 @@ footer {
 
   .dt {
     background-image: url(Bg\ Imaegs/bg1.jpg);
-    height: 150vw;
+    height: 140vw;
   
     h5 {
       font-family: "Roboto", serif;
@@ -451,18 +459,18 @@ footer {
   
     #img3 {
       width: 68vw;
-      height: 51vw;
+      height: 50vw;
     }
   
     #img4 {
       width: 68vw;
-      height: 51vw;
+      height: 40vw;
     }
   }
 
   .df {
     background-color: black;
-    height: 135vw;
+    height: 166vw;
   
     h5 {
       font-family: "Roboto", serif;
@@ -484,7 +492,7 @@ footer {
   
       img {
         width: 80vw;
-        height: 34vw;
+        height: 48vw;
       }
     }
   }
@@ -547,4 +555,23 @@ footer {
     display: flex;
     justify-content: center;
   }
-}
+
+ .dt {.dd{ 
+    display: flex;
+    justify-content: center;
+  
+    a:hover{ h4{
+      color: red;
+    }}
+    
+    h4 {
+      font-family: "Roboto", serif;
+      font-weight: 700;
+      font-style: normal;
+      text-align: center;
+      font-size: 2vw;
+      padding-top: 2vw;
+      color: white;
+      text-decoration: underline;
+    }}}
+  }
