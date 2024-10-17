@@ -412,11 +412,12 @@ padding-top: 4vh;
                   }}
 
                   .bg{
-                    height: 86vw;
+                    height: 90vw;
                   }
 
                   .box{
                     width: 78%;
+                    height: 80vw;
                   }
 
                   .imgset{

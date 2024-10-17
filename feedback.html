@@ -42,34 +42,63 @@
     <main>
         <div class="feedback">
             <div class="box">
-                <form>
+                <!-- <form>
                 <div class="input">
                     <div class="inputset1">
                         <h1>NAME</h1>
                         <H1>EMAIL</H1>
                     </div>
                     <div class="inputset2">
-                        <input type="text">
-                        <input type="email">
+                        <input type="text" name="name" required>
+                        <input type="email" name="email" required>
                     </div>
                     <div class="inputset3">
                         <h1>ISSUE YOU FACED IN OUR WEBSITE</h1>
-                        <input type="text">
+                        <input type="text" name="issue" required>
                     </div>
                     <div class="inputset4">
                         <h1>HOW CAN WE MAKE THIS WEBSITE BETTER</h1>
-                        <input type="text">
+                        <input type="text" name="suggestion" required>
                     </div>
                     <div class="inputset5">
                         <h1>WHERE DID YOU FIRST HEAR ABOUT US?</h1>
-                        <input type="text">
+                        <input type="text" name="source" required>
                     </div>
                     <div class="inputset6">
                         <div class="blank"></div>
                         <input type="submit">
                     </div>
                 </div>
-                </form>
+                </form>  -->
+                <form   action="https://formspree.io/f/mqakkngl"
+                method="POST">
+                    <div class="input">
+                        <div class="inputset1">
+                            <h1>NAME</h1>
+                            <H1>EMAIL</H1>
+                        </div>
+                        <div class="inputset2">
+                            <label><input type="text" name="name" required></label>
+                            <label><input type="email" name="email" required></label>
+                        </div>
+                        <div class="inputset3">
+                            <h1>ISSUE YOU FACED IN OUR WEBSITE</h1>
+                            <label><input type="text" name="issue" required></label>
+                        </div>
+                        <div class="inputset4">
+                            <h1>HOW CAN WE MAKE THIS WEBSITE BETTER</h1>
+                            <label><input type="text" name="suggestion" required></label>
+                        </div>
+                        <div class="inputset5">
+                            <h1>WHERE DID YOU FIRST HEAR ABOUT US?</h1>
+                            <label><input type="text" name="source" required></label>
+                        </div>
+                        <div class="inputset6">
+                            <div class="blank"></div>
+                            <input type="submit">
+                        </div>
+                    </div>
+                    </form> 
             </div>
         </div>
         <div class="df">

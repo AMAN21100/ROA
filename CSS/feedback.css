@@ -204,6 +204,9 @@ padding-top: 4vh;
             height: 1.5vw;
             width: 25vw;
         }
+        label{
+          font-size: 0px;
+        }
     }
 
     .inputset3{
@@ -222,6 +225,9 @@ padding-top: 4vh;
             padding-top: 4vw;
             display: block;
         }
+        label{
+          font-size: 0px;
+        }
     }
 
     .inputset4{
@@ -239,6 +245,9 @@ padding-top: 4vh;
             color: white;
             padding-top: 4vw;
             display: block;
+        }
+        label{
+          font-size: 0px;
         }
     }
 
@@ -259,6 +268,9 @@ padding-top: 4vh;
             padding-top: 4vw;
             display: block;
         }
+        label{
+          font-size: 0px;
+        }
     }
 
     .inputset6{
@@ -276,6 +288,9 @@ padding-top: 4vh;
             font-style: normal;
             font-size: 1vw;
         }
+        label{
+          font-size: 0px;
+        }
     }
 
     input{
@@ -287,6 +302,8 @@ padding-top: 4vh;
       font-style: normal;
       font-size: 1vw;
   }
+
+ 
         
 
     @media (max-width: 1024px){

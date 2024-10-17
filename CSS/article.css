@@ -163,36 +163,54 @@ padding-top: 4vh;
         }
         
         .bg{
-            height: 100vw;
+            height: 130vw;
             width: 100%;
             background-image: url(Bg\ Imaegs/bg2.jpg);
         }
     
         .box{
-          height: 94vw;
-          width: 70%;
-          margin: auto;
-          background-color: black;
-        
-        h1{
-          font-family: "ABeeZee", sans-serif;
-          font-weight: 500;
-          font-style: normal;
-          text-align: left;
-          font-size: 1vw;
-          padding-top: 0.1vw;
-          padding-left: 1vw;
-          color: rgb(255, 255, 255);
-      }
-            .ai{
-              width: 96%;
-              height: 30vw;
-              padding-left: 1vw;
-              padding-top: 1vw;
-              padding-bottom: 1vw;
+            height: 125vw;
+            width: 70%;
+            margin: auto;
+            background-color: black;
+            h3{
+                font-family: "Roboto", serif;
+                font-weight: 900;
+                font-style: normal;
+                text-align: left;
+                font-size: 3vw;
+                padding-top: 2vw;
+                padding-left: 1vw;
+                color: rgb(255, 255, 255);
             }
-      }
-
+            h2{
+              font-family: "ABeeZee", sans-serif;
+              font-weight: 500;
+              font-style: normal;
+              text-align: left;
+              font-size: 2vw;
+              padding-bottom: 1vw;
+              padding-left: 1vw;
+              color: rgb(255, 255, 255);
+          }
+          h1{
+            font-family: "ABeeZee", sans-serif;
+            font-weight: 500;
+            font-style: normal;
+            text-align: left;
+            font-size: 1vw;
+            padding-top: 0.1vw;
+            padding-left: 1vw;
+            color: rgb(255, 255, 255);
+        }
+              .ai{
+                width: 96%;
+                height: 30vw;
+                padding-left: 1vw;
+                padding-top: 1vw;
+                padding-bottom: 1vw;
+              }
+        }
 
         @media (max-width: 1024px){
 
@@ -382,7 +400,7 @@ padding-top: 4vh;
                       font-weight: 700;
                       font-style: normal;
                       text-align: center;
-                      font-size: 7vw;
+                      font-size: 8vw;
                       color: white;
                       padding-top: 5vw;
                   }
@@ -398,15 +416,36 @@ padding-top: 4vh;
                   }}
 
                   .bg{
-                    height: 170vw;
-                  }
-
-                  .box{
-                    height: 164vw;
+                    height: 260vw;
+                    width: 100%;
+                    background-image: url(Bg\ Imaegs/bg2.jpg);
+                }
+            
+                .box{
+                    height: 256vw;
                     width: 80%;
                     margin: auto;
                     background-color: black;
-              
+                    h3{
+                        font-family: "Roboto", serif;
+                        font-weight: 900;
+                        font-style: normal;
+                        text-align: left;
+                        font-size: 4vw;
+                        padding-top: 2vw;
+                        padding-left: 1vw;
+                        color: rgb(255, 255, 255);
+                    }
+                    h2{
+                      font-family: "ABeeZee", sans-serif;
+                      font-weight: 500;
+                      font-style: normal;
+                      text-align: left;
+                      font-size: 3vw;
+                      padding-bottom: 1vw;
+                      padding-left: 1vw;
+                      color: rgb(255, 255, 255);
+                  }
                   h1{
                     font-family: "ABeeZee", sans-serif;
                     font-weight: 500;
@@ -425,4 +464,6 @@ padding-top: 4vh;
                         padding-bottom: 1vw;
                       }
                 }
+        
+
               }

@@ -16,6 +16,7 @@
 }
 /* fonts end */
 
+
 .header_nav {
   display: grid;
   grid-template-columns: 10vw 3vw 65vw 3vw 18vw;
@@ -60,45 +61,32 @@ color: red;
 
 }
 
-.slider{
-width: 100%;
-height: 37.5vw;
-
-}
-
-.slide{img{ 
-width: 100%;
-height: 37.5vw;
-}
-
-}
-
 footer{
-  height: 20vw;
-  background-image: url(Bg\ Imaegs/bg3.png);
-  h3{
-    font-family: "Roboto", serif;
-    font-weight: 700;
-    font-style: normal;
-    text-align: center;
-    font-size: 1vw;
-    padding-top: 4vh;
-    color: white;
-    display: inline-block;
-  }
-  .line   {
-    display: flex;
+height: 20vw;
+background-image: url(Bg\ Imaegs/bg3.png);
+h3{
+  font-family: "Roboto", serif;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+  font-size: 1vw;
+  padding-top: 4vh;
+  color: white;
+  display: inline-block;
+}
+.line   {
+  display: flex;
+justify-content: center;
+align-items: center; 
+padding-top: 1vh;
+img{
+  height: 0.5vw;
+  background-color: aliceblue;
+  display: flex;
   justify-content: center;
-  align-items: center; 
-  padding-top: 1vh;
-  img{
-    height: 0.5vw;
-    background-color: aliceblue;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 75.1vw;
-  }}
+  align-items: center;
+  width: 75.1vw;
+}}
 .fe{
 display: grid;
 grid-template-columns: 1vw 4.5vw 4.5vw 3.5vw 10.5vw 36vw 2.5vw 2.5vw 2.5vw 2.5vw;
@@ -109,137 +97,140 @@ padding-top: 4vh;
 }
 }}
 
-
 .center{
 display: flex;
 justify-content: center;
 }
 
-.st{
+.title{
+      
   height: 14vw;
-  background-color: black;
-  h4{
+  background-color: rgb(0, 0, 0);
+  h6{
       font-family: "Roboto", serif;
       font-weight: 700;
       font-style: normal;
       text-align: center;
-      font-size: 3vw;
-      padding-top: 2vw;
+      font-size: 6.5vw;
       color: white;
+      padding-top: 5vw;
   }
-  input{
-      margin-top: 1vw;
-      width: 37.5vw;
-      height: 1.75vw;
-      border-radius: 400px;
-  }
-  .input{
-      display: flex;
-      justify-content: center;
-  }
-
-}
-
-.sti{
-  height: 100vw;
-  background-image: url(Bg\ Imaegs/bg2.jpg);
-  h4{
+  h1{
       font-family: "Roboto", serif;
       font-weight: 700;
       font-style: normal;
       text-align: center;
-      font-size: 3vw;
-      padding-top: 2vw;
+      font-size: 1vw;
+      padding-top: 0.5vw;
       color: white;
-      padding-bottom: 0.5vw;
-     
   }}
 
-.imgset{
-  display: flex;
-  justify-content: center;
-  gap: 1.5vw;
-  .sb{
-    background-color: rgb(0, 0, 0);
-      width: 20vw;
-      height: 25vw;
-      margin-top: 2.5vw;
-      display: block;
-
-      img{
-        margin-top: 1vw;
-        margin-left: 1vw;
-        height: 18vw;
-      }
-      h3{
+  .df{
+      background-color: black;
+      height: 35vw;
+      h5{
         font-family: "Roboto", serif;
         font-weight: 700;
         font-style: normal;
-        font-size: 1.5vw;
-        color: rgb(255, 255, 255);
-        text-align: left;
-        padding-left: 1vw;
-        padding-top: 0.2vw;
+        text-align: center;
+        font-size: 2.5vw;
+        padding-top: 3.5vw;
+        color: white;}
+      
+        .mt3{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 2vw;
+          padding-top: 3vw;
+          img{
+            width: 25vw;
+          height: 15vw;
+          }
+        }
+      }
+  
+      hr{
+        border: 2px solid #100d0d;
+        
+      }
+  
+      .jtr{
+        margin-bottom: -1vh;
+        width: 100%;
+        img{
+          width: 100%;
+        }
+      }
 
-       
+      .bg{
+          height: 140vw;
+          width: 100%;
+          background-image: url(Bg\ Imaegs/bg2.jpg);
+      }
+  
+      .box{
+          height: 125vw;
+          width: 66vw;
+          margin: auto;
+          background-color: black;
+          padding-top: 8vh;
+      }
+
+      .line{
+          .imgline{
+          height: 25vw;
+          width: 1px;
+          /* display: inline-block;
+          padding-left: 22vw; */
+          display: inline-block;
+         
+     
+  }}
+
+  .thumb{
+      display: inline-block;
+      background-color: rgb(0, 0, 0);
+      h3{
+        font-family: "Roboto", serif;
+        font-weight: 900;
+        font-style: normal;
+        text-align: left;
+        font-size: 2vw;
+        padding-top: 0.1vw;
+        padding-left: 1vw;
+        color: rgb(255, 255, 255);
     }
     h2{
-      font-family: "Roboto", serif;
-      font-weight: 700;
+      font-family: "ABeeZee", sans-serif;
+      font-weight: 500;
       font-style: normal;
-      font-size: 1vw;
-      color: rgb(255, 255, 255);
       text-align: left;
+      font-size: 1.8vw;
+      padding-top: 0.1vw;
       padding-left: 1vw;
+      color: rgb(255, 255, 255);
+  }
       
-  }
-  .link{
-    color: rgb(0, 0, 58);
-  }
- 
-    }
-  
+      .thumbi{
+        width: 20vw;
+        height: 12vw;
+        padding-top: 0.5vw;
+        padding-left: 1vw;
 }
 
+  }
 
-.df{
-  background-color: black;
-  height: 35vw;
-  h5{
-    font-family: "Roboto", serif;
-    font-weight: 700;
-    font-style: normal;
-    text-align: center;
-    font-size: 2.5vw;
-    padding-top: 3.5vw;
-    color: white;}
-  
-    .mt3{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      gap: 2vw;
-      padding-top: 3vw;
-      img{
-        width: 25vw;
-        height: 15vw;
+  .le1{
+      display: grid;
+      grid-template-columns: 22vw 1px 22vw 1px 22vw 1px 22vw ;
+      .thumb{
+              width: 22vw;
+              height: 25vw;
       }
-    }
+      
   }
 
-  hr{
-    border: 2px solid #100d0d;
-    
-  }
-
-  .jtr{
-    margin-bottom: -1vh;
-    width: 100%;
-    img{
-      width: 100%;
-    }
-  }
-  
   @media (max-width: 1024px){
 
     footer{
@@ -333,7 +324,7 @@ justify-content: center;
         
           .df {
             background-color: black;
-            height: 135vw;
+            height: 166vw;
           
             h5 {
               font-family: "Roboto", serif;
@@ -355,7 +346,7 @@ justify-content: center;
           
               img {
                 width: 80vw;
-                height: 34vw;
+                height: 48vw;
               }
             }
           }
@@ -419,94 +410,93 @@ justify-content: center;
             justify-content: center;
           }
 
-          .st{
-            height: 20vw;
-            background-color: black;
-            h4{
+          .title{
+      
+            height: 22vw;
+            background-color: rgb(0, 0, 0);
+            h6{
                 font-family: "Roboto", serif;
                 font-weight: 700;
                 font-style: normal;
                 text-align: center;
-                font-size: 8vw;
-                padding-top: 2vw;
+                font-size: 7vw;
                 color: white;
+                padding-top: 5vw;
             }
-            input{
-                margin-top: 1vw;
-                width: 50.5vw;
-                height: 2.75vw;
-                border-radius: 400px;
-            }
-            .input{
-                display: flex;
-                justify-content: center;
-            }
-         
-          }
-
-          .sti{
-            height: 100vw;
-            background-image: url(Bg\ Imaegs/bg2.jpg);
-            h4{
+            h1{
                 font-family: "Roboto", serif;
                 font-weight: 700;
                 font-style: normal;
                 text-align: center;
                 font-size: 3vw;
-                padding-top: 2vw;
+                padding-top: 1vw;
                 color: white;
-                padding-bottom: 0.5vw;
-               
+                padding-top: 1vh;
             }}
-          
-          .imgset{
-            display: flex;
-            justify-content: center;
-            gap: 1.5vw;
-            .sb{
-              background-color: rgb(0, 0, 0);
-                width: 20vw;
-                height: 25vw;
-                margin-top: 2.5vw;
-                display: block;
-          
-                img{
-                  margin-top: 1vw;
-                  margin-left: 1vw;
-                  height: 18vw;
-                }
-                h3{
-                  font-family: "Roboto", serif;
-                  font-weight: 700;
-                  font-style: normal;
-                  font-size: 1.5vw;
-                  color: rgb(255, 255, 255);
-                  text-align: left;
-                  padding-left: 1vw;
-                  padding-top: 0.2vw;
-          
-                 
-              }
-              h2{
-                font-family: "Roboto", serif;
-                font-weight: 700;
-                font-style: normal;
-                font-size: 1vw;
-                color: rgb(255, 255, 255);
-                text-align: left;
-                padding-left: 1vw;
-                
-            }
-            .link{
-              color: rgb(0, 0, 58);
-            }
-           
-              }
-            
-          }
-          
-          
-        
-        }
 
+            .bg{
+              height: 170vw;
+              width: 100%;
+              background-image: url(Bg\ Imaegs/bg2.jpg);
+          }
+      
+          .box{
+              height: 147.5vw;
+              width: 78vw;
+              margin: auto;
+              background-color: black;
+              padding-top: 8vh;
+          }
+    
+          .line{
+              .imgline{
+                height: 29.5vw;
+              width: 1px;
+              /* display: inline-block;
+              padding-left: 22vw; */
+              display: inline-block;
+             
+         
+      }}
+    
+      .thumb{
+        display: inline-block;
+        background-color: rgb(0, 0, 0);
+        h3{
+          font-family: "Roboto", serif;
+          font-weight: 900;
+          font-style: normal;
+          text-align: left;
+          font-size: 3vw;
+          padding-top: 0.1vw;
+          padding-left: 1vw;
+          color: rgb(255, 255, 255);
+      }
+      h2{
+        font-family: "ABeeZee", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        text-align: left;
+        font-size: 1.8vw;
+        padding-top: 0.1vw;
+        padding-left: 1vw;
+        color: rgb(255, 255, 255);
+    }
         
+        .thumbi{
+          width: 24vw;
+          height: 14vw;
+          padding-top: 0.5vw;
+          padding-left: 1vw;
+  }
+    }
+    
+      .le1{
+          display: grid;
+          grid-template-columns: 26vw 1px 26vw 1px 26vw 1px 26vw ;
+          .thumb{
+            width: 26vw;
+            height: 29.5vw;
+          }
+      }
+        }
